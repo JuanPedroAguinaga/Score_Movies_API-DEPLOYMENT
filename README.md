@@ -89,5 +89,32 @@ El modelo de entrena utilizando los datos procesados y evaluamos su rendimiento.
 
 4. Implementación del modelo: Lamentablente, no se logro cumplir con lo requerido "De ser posible, este sistema de recomendación debe ser deployado para tener una interfaz gráfica amigable para ser utilizada, utilizando Gradio para su deployment o bien con alguna solución como Streamlit o algo similar en local". Los tiempos de entrega fueron ajustados y no se logro este punto. En la brevedad se actualizara el proyecto con una disponibilización en una interfaz grafica.
 
+## Conclusion
+
+
+En resumen, el proyecto de machine learning enfocado en crear un modelo de recomendación personalizada a usuarios ha sido una experiencia muy enriquecedora y exitosa. A través de la aplicación de técnicas de aprendizaje automático, fui capaces de construir un modelo que es capaz de analizar y entender las preferencias de los usuarios, y así sugerir productos o servicios que se ajustan a sus gustos y necesidades específicas.
+
+Este modelo de recomendación personalizada tiene el potencial de mejorar significativamente la experiencia del usuario, al permitirles descubrir productos o servicios que de otra manera podrían haber pasado por alto. Además, también puede ayudar a aumentar las ventas y la retención de clientes para la empresa, al ofrecer recomendaciones precisas y relevantes.
+
+En definitiva, el modelo de recomendación personalizada desarrollado en este proyecto demuestra el valor del aprendizaje automático en la mejora de la experiencia del usuario y la eficacia de la estrategia de recomendación personalizada para las empresas.
+
+
+## Nota
+
+El proyecto esta dividio en dos archivos, [Score_Movies_API-DEPLOYMENT](https://github.com/JuanPedroAguinaga/Score_Movies_API-DEPLOYMENT) y [Score_Movies_EDA_SistemaDeRecomendacion](https://github.com/JuanPedroAguinaga/Score_Movies_EDA_SistemaDeRecomendacion) ya que al momento de queres disponibiizar la API en render, no podia cargar el archivo entero completo por razones desconocidas. 
+
+
+## Contribuciones 
+ 
+ Este tipo de proyecto es perfecto para desarrollar y aumentar habilidades de Data Engineering y Data Science, es de codigo abierto y esta abierto a posibles contribuciones. Si tenes intenciones de hacerlo:
+ - Haga un fork del repo.
+ - Cree una nueva rama con sus caracteristicas o correciones
+ - Realize los cambios y asegúrese de seguir las mejoras prácticas de codificación y decumentación.
+ - Realize un pull request y espera laaprobación
+
+## Fuente de datos
+
+- [Datasets](https://drive.google.com/drive/u/0/folders/1iY6oLzZXwQ-lR2LGJkKnXFfZQchtYlQx): La carpeta 'ratings' tiene varios archivos con las reseñas de los usuarios, la carpeta raíz tiene un dataset por proveedor de servicios de streaming. 
+
 
 
