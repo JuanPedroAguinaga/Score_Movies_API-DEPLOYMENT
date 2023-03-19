@@ -63,7 +63,7 @@ La API cuenta con los siguientes endpoints:
 
 Para realizar el deploy se utilizo [Render](https://render.com/)
 
-Intrucciones: 
+Instrucciones: 
 
 - Clonar el repositorio con (git clone https://github.com/JuanPedroAguinaga/Score_Movies_API-DEPLOYMENT)
 - Acceder a la carpeta mediante linea de comandos (cd/ruta/hasta/el/proyecto/Score_Movies_API-DEPLOYMENT) una vez clonada o descargada
@@ -72,5 +72,22 @@ Intrucciones:
 - Instalar las dependencias del proyecto mediante la ejecución de (pip install -r requirements.txt)
 - Ejecutar el proyecto mediante el comando (uvicorn main:app --reload) asegurandose que tenemos instalado uvicorn mediante el comando pip install uvicorn
  para poder probar el proyecto en local accediendo al navegador en (localhots:8000)
+- Una vez funcionando la API en local, debemos desplegarla en [Render](https://render.com/), para ello la subiremos directamente desde la
+conexion de Render con nuestro archivo en GitHub. [Tutorial de Render](https://github.com/HX-FNegrete/render-fastapi-tutorial)
+
+## EDA y Sistema de recomendación:
+
+1. Recopilación y pocesamiento de datos: Recopilamos los datos de las diferentes plataformas de streaming y los procesaremos
+para preepararlos para su uso en el modelo de recomendación.Esto incluye la eliminacion de datos faltantes, tranformacion de datos, nuevas columnas
+y la creacion de nuevas caracteristicas.
+
+2. Análisis exploratorio de los datos(EDA): Investigamos las variables y relaciones entre los datasets, analizamos si existen outliers o anomalias,
+ademas buscamos algun patron interesante que valga la pena investigar.
+
+3. Desarrollo del modelo de recomendación: Desarrollamos un modelo de recomendación utilizando tecnicas de Machine Learning.
+El modelo de entrena utilizando los datos procesados y evaluamos su rendimiento.
+
+4. Implementación del modelo: Lamentablente, no se logro cumplir con lo requerido "De ser posible, este sistema de recomendación debe ser deployado para tener una interfaz gráfica amigable para ser utilizada, utilizando Gradio para su deployment o bien con alguna solución como Streamlit o algo similar en local". Los tiempos de entrega fueron ajustados y no se logro este punto. En la brevedad se actualizara el proyecto con una disponibilización en una interfaz grafica.
+
 
 
