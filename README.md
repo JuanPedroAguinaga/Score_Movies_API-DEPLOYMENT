@@ -9,7 +9,7 @@
 El proyecto se enfoca en el rol de MLOps Enginner, donde se pide el desarrollo de una API utilizando el framework FastApi
 para comunicar y disponibilizar datos para el equipo de análisis de datos de una empresa. 
 El objetivo principal es realizar transformaciones 
-específicas en los datos y disponibilizarlos a través de endpoints accesibles mediante la API que finalmente debe ser desplegada en Render.
+específicas en los datos y disponibilizarlos a través de endpoints accesibles mediante la API que finalmente fue desplegada en Render.
 Una vez terminado el proceso y echo el deployment, realizamos un proceso de análisis exploratorio de los datos para luego, poder entrenar un modelo de machine
 learning para armar un sistema de recomendacion de peliculas para usuarios.
 
@@ -92,16 +92,16 @@ El modelo de entrena utilizando los datos procesados y evaluamos su rendimiento.
 ## Conclusion
 
 
-En resumen, el proyecto de machine learning enfocado en crear un modelo de recomendación personalizada a usuarios ha sido una experiencia muy enriquecedora y exitosa. A través de la aplicación de técnicas de aprendizaje automático, fui capaces de construir un modelo que es capaz de analizar y entender las preferencias de los usuarios, y así sugerir productos o servicios que se ajustan a sus gustos y necesidades específicas.
+En resumen, el proyecto de machine learning enfocado en crear un modelo de recomendación personalizada a usuarios ha sido una experiencia muy enriquecedora y exitosa. A través de la aplicación de técnicas de aprendizaje automático, fui capaz de construir un modelo que es capaz de analizar y entender las preferencias de los usuarios, y así sugerir peliculas que se ajustan a sus gustos y necesidades específicas.
 
-Este modelo de recomendación personalizada tiene el potencial de mejorar significativamente la experiencia del usuario, al permitirles descubrir productos o servicios que de otra manera podrían haber pasado por alto. Además, también puede ayudar a aumentar las ventas y la retención de clientes para la empresa, al ofrecer recomendaciones precisas y relevantes.
+Este modelo de recomendación personalizada tiene el potencial de mejorar significativamente la experiencia del usuario, al permitirles descubrir peliculas o series que de otra manera podrían haber pasado por alto. Además, también puede ayudar a aumentar las ventas y la retención de clientes para la empresa, al ofrecer recomendaciones precisas y relevantes.
 
-En definitiva, el modelo de recomendación personalizada desarrollado en este proyecto demuestra el valor del aprendizaje automático en la mejora de la experiencia del usuario y la eficacia de la estrategia de recomendación personalizada para las empresas.
+En definitiva, el modelo de recomendación personalizada desarrollado en este proyecto demuestra el valor del aprendizaje automático en la mejora de la experiencia del usuario y la eficacia de la estrategia de recomendación personalizada de la empresa.
 
 
 ## Nota
 
-El proyecto esta dividio en dos archivos, [Score_Movies_API-DEPLOYMENT](https://github.com/JuanPedroAguinaga/Score_Movies_API-DEPLOYMENT) y [Score_Movies_EDA_SistemaDeRecomendacion](https://github.com/JuanPedroAguinaga/Score_Movies_EDA_SistemaDeRecomendacion) ya que al momento de queres disponibiizar la API en render, no podia cargar el archivo entero completo por razones desconocidas. 
+El proyecto esta dividio en dos archivos, [Score_Movies_API-DEPLOYMENT](https://github.com/JuanPedroAguinaga/Score_Movies_API-DEPLOYMENT) y [Score_Movies_EDA_SistemaDeRecomendacion](https://github.com/JuanPedroAguinaga/Score_Movies_EDA_SistemaDeRecomendacion) ya que al momento de querer disponibiizar la API en render, no podia cargar el archivo entero completo por razones desconocidas. 
 
 
 ## Contribuciones 
@@ -117,4 +117,7 @@ El proyecto esta dividio en dos archivos, [Score_Movies_API-DEPLOYMENT](https://
 - [Datasets](https://drive.google.com/drive/u/0/folders/1iY6oLzZXwQ-lR2LGJkKnXFfZQchtYlQx): La carpeta 'ratings' tiene varios archivos con las reseñas de los usuarios, la carpeta raíz tiene un dataset por proveedor de servicios de streaming. 
 
 
+
+
+Aguinaga Juan Pedro - Estudiante Data Science
 
